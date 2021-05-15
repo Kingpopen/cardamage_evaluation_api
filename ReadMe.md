@@ -159,11 +159,11 @@ bbox_subset = bbox[[0, 2]]
 # 可通过fields()方法查看所有的fields
 boxlist.fields()
 ```
-**labels**: 保存该图片所有预测的损伤类型  &ensp; eg. *[1, 2, 4, 1 ...]* 
-**scores**: 保存该图片所有预测的损伤类型对应得分 &ensp; eg. *[0.8, 0.2, 0.3, 0.6...]* 
-**componets**:保存该图片所有预测的零件类型 &ensp; eg. *[3, 2, 5, 1 ...]* 
-**component_scores**:保存该图片所有预测的零件类型对应得分 &ensp; eg. *[0.8, 0.4, 0.5, 0.7...]* 
-**mask**: 保存每一个instance对应的mask图 shape is (num_instances, 1, mask_size, mask_size)
+**labels**: 保存该图片所有预测的损伤类型  &ensp; eg. *[1, 2, 4, 1 ...]*   
+**scores**: 保存该图片所有预测的损伤类型对应得分 &ensp; eg. *[0.8, 0.2, 0.3, 0.6...]*   
+**componets**:保存该图片所有预测的零件类型 &ensp; eg. *[3, 2, 5, 1 ...]*   
+**component_scores**:保存该图片所有预测的零件类型对应得分 &ensp; eg. *[0.8, 0.4, 0.5, 0.7...]*   
+**mask**: 保存每一个instance对应的mask图 shape is (num_instances, 1, mask_size, mask_size)  
 **（如果你的predictions.pth中的BoxList对象不包含以上的fields，或者field名称不太一样，那么可能需要进行一定的修改:smile:）**
 
 
