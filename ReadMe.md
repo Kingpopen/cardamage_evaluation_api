@@ -1,4 +1,4 @@
-# README.md
+# cardamage_evaluation_api
 这是关于车损多分支数据集测评包的介绍文档。（基于COCO评测的pycocotools进行微小调整）
 
 - [x] 可以将多分支的数据转化为单分支的24分类，52分类，160分类
